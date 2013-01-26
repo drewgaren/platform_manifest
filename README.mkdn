@@ -1,0 +1,31 @@
+THE ORCA PROJECT
+----------------
+
+The Orca Project is currently in the process of uploading new source. You may not be able to
+compiled a build yet. Please refer to this manifest for all future builds. And stay tuned 
+for future source updated on the site as we upload them to github.
+
+We are working on many new things and fixing some old issues. 
+
+just remember the shamu can service you too...
+
+code. compile. debug.
+
+more info on the orca project visit drewgaren.com and click on the orca project
+
+
+Get Repo
+--------
+
+    mkdir ~/bin
+    export PATH=~/bin:$PATH
+    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+    chmod a+x ~/bin/repo
+
+Syncing the XY Source
+---------------------------------------
+
+    mkdir ~/orca
+    cd ~/orca
+    repo init -u https://github.com/orcaproject42/platform_manifest -b jb4.2
+    repo sync -j16

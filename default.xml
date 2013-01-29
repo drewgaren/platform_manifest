@@ -10,6 +10,9 @@
 
   <remote  name="dg"
            fetch="https://github.com/orcaproject42/" />
+           
+ <remote  name="mup"
+           fetch="https://github.com/TheMuppets/" />         
 
   <remote  name="aokp"
            fetch="https://github.com/AOKP/" />
@@ -52,7 +55,7 @@
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="xy" revision="jellybean" groups="device" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="xy" revision="cm-10.1" />
   <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="xy" revision="cm-10.1" />
-  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="pub" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -370,7 +373,7 @@
 
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="xy" revision="jellybean" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="pub" revision="cm-10.1" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="mup" revision="cm-10.1" />
   <project path="vendor/orca" name="vendor_orca" remote="dg" revision="jb4.2" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />

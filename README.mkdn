@@ -22,7 +22,7 @@ Get Repo
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 
-Syncing the XY Source
+Syncing the Orca Source
 ---------------------------------------
 
     mkdir ~/orca

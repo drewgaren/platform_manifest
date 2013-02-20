@@ -27,5 +27,11 @@ Syncing the XY Source
 
     mkdir ~/orca
     cd ~/orca
-    repo init -u https://github.com/orcaproject42/platform_manifest -b jb4.2
+    repo init -u https://github.com/orcaproject42/platform_manifest -b jb4.2.2
     repo sync -j16
+
+
+
+Still a Work In Progress Just To Let Y'All Know! Nightlies can be found on Goo.IM and Drewgaren.com.
+
+Soon Threads Will Be Posted Up At XDA Again.

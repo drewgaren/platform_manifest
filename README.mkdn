@@ -1,9 +1,9 @@
-THE ORCA PROJECT
-----------------
+THE ORCA PROJECT CHECK BACK LATER REPO CLOSED
+------------------------------------------------
 
-The Orca Project is currently in the process of uploading new source. You may not be able to
-compiled a build yet. Please refer to this manifest for all future builds. And stay tuned 
-for future source updated on the site as we upload them to github.
+The Orca Project is updating all new source code to github for Milestone 2.
+
+Do not attempt to build from this manifest it is not linked to any repo.
 
 We are working on many new things and fixing some old issues. 
 

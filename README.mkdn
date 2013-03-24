@@ -1,5 +1,13 @@
-THE ORCA PROJECT CHECK BACK LATER REPO CLOSED
+THE ORCA PROJECT WARNING MANIFEST NOT COMPLETE 
 ------------------------------------------------
+
+THIS WILL KILL A SHAMU IF YOU TRY TO COMPILE. 
+
+The manifest is not finished yet guys. Almost there. Few more minor things.
+
+Later this week it will be ready for use.
+
+
 
 The Orca Project is updating all new source code to github for Milestone 2.
 
@@ -27,7 +35,7 @@ Syncing the Orca Source
 
     mkdir ~/orca
     cd ~/orca
-    repo init -u https://github.com/orcaproject42/platform_manifest -b jb4.2.2
+    repo init -u https://github.com/orcaosp/platform_manifest -b jb4.2.2
     repo sync -j16
 
 

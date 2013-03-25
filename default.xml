@@ -347,7 +347,7 @@
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="jb4.2.2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ORCASettings" name="ORCASettings-2" remote="dg" revision="jb4.2.2" />
+  <project path="packages/apps/ORCASettings" name="packages_apps_ORCASettings" remote="dg" revision="orca" />
   <project path="packages/apps/ORCAWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="dg" revision="gh-pages" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="dg" revision="jb4.2-nightly" />

@@ -1,17 +1,7 @@
-THE ORCA PROJECT WARNING MANIFEST NOT COMPLETE 
-------------------------------------------------
-
-THIS WILL KILL A SHAMU IF YOU TRY TO COMPILE. 
-
-The manifest is not finished yet guys. Almost there. Few more minor things.
-
-Later this week it will be ready for use.
-
-
+THE ORCA PROJECT MANIFEST
+---------------------------
 
 The Orca Project is updating all new source code to github for Milestone 2.
-
-Do not attempt to build from this manifest it is not linked to any repo.
 
 We are working on many new things and fixing some old issues. 
 
@@ -21,6 +11,8 @@ code. compile. debug.
 
 more info on the orca project visit drewgaren.com and click on the orca project
 
+
+NOTE NOT ALL SOURCE IS READY FOR COMPILING BUT MOST IS AVAILABLE FOR YOU TO BUILD YOUR OWN SHAMU!
 
 Get Repo
 --------
@@ -42,4 +34,4 @@ Syncing the Orca Source
 
 Still a Work In Progress Just To Let Y'All Know! Nightlies can be found on Goo.IM and Drewgaren.com.
 
-Soon Threads Will Be Posted Up At XDA Again.
+Soon Threads Will Be Posted Up At XDA Again. MORE THREADS SOON.

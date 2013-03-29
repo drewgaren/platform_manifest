@@ -33,7 +33,7 @@ Syncing the Orca Source
 
 
 Note: you may run into issues fininshing the repo sync depending on your python version. If repo sync does not
-try repo sync -j16 or repo sync -j1. 
+try repo sync -j16 or repo sync -j1. repo sync -j1 should be used in Ubuntu 11.10 to complete syncing without issue.
 
 
 Still a Work In Progress Just To Let Y'All Know! Nightlies can be found on Goo.IM and Drewgaren.com.

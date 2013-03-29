@@ -28,8 +28,12 @@ Syncing the Orca Source
     mkdir ~/orca
     cd ~/orca
     repo init -u git://github.com/ORCAOSP/platform_manifest.git -b jb4.2.2
-    repo sync -j16
+    repo sync 
 
+
+
+Note: you may run into issues fininshing the repo sync depending on your python version. If repo sync does not
+try repo sync -j16 or repo sync -j1. 
 
 
 Still a Work In Progress Just To Let Y'All Know! Nightlies can be found on Goo.IM and Drewgaren.com.

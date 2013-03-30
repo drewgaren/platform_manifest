@@ -29,6 +29,7 @@ Syncing the Orca Source
     cd ~/orca
     repo init -u git://github.com/ORCAOSP/platform_manifest.git -b jb4.2.2
     repo sync 
+    . ./platform_manifest/manual_add_kernel_manifest.sh
 
 
 

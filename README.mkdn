@@ -1,7 +1,7 @@
-THE ORCA PROJECT MANIFEST
----------------------------
+[The Orca Project](drewgaren.com)
+====================================
 
-The Orca Project is updating all new source code to github for Milestone 2.
+The Orca Project is updating all new source code to github.
 
 We are working on many new things and fixing some old issues. 
 
@@ -12,7 +12,10 @@ code. compile. debug.
 more info on the orca project visit drewgaren.com and click on the orca project
 
 
-NOTE NOT ALL SOURCE IS READY FOR COMPILING BUT MOST IS AVAILABLE FOR YOU TO BUILD YOUR OWN SHAMU!
+Download the source
+--------------
+
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
 Get Repo
 --------
@@ -22,21 +25,49 @@ Get Repo
     curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 
-Syncing the Orca Source
+Syncing the Orca Source Code
 ---------------------------------------
 
-    mkdir ~/orca
-    cd ~/orca
+Initialize
+
     repo init -u git://github.com/ORCAOSP/platform_manifest.git -b jb4.2.2
-    repo sync 
+
+Run the following to sync the source
+
+    repo sync -j1
+
+***
+
+Download the Kernel Source
+--------------------------
+
+Integrated kernel building is now a required part of compiling ORCA for all supported devices!
+
+From the root of your source tree, run the following script to grab the kernel sources required
+
     . ./platform_manifest/manual_add_kernel_manifest.sh
 
+Then run another `repo sync`
 
 
-Note: you may run into issues fininshing the repo sync depending on your python version. If repo sync does not
-try repo sync -j16 or repo sync -j1. repo sync -j1 should be used in Ubuntu 11.10 to complete syncing without issue.
+**Advanced users:**
+Since the kernel trees are fairly large, you may want to sync only specific kernel trees for devices you build for, take a look at the file `.repo/local_manifests/kernel_manifest.xml`. You can edit this file to suite your needs.
 
 
-Still a Work In Progress Just To Let Y'All Know! Nightlies can be found on Goo.IM and Drewgaren.com.
+***
 
-Soon Threads Will Be Posted Up At XDA Again. MORE THREADS SOON.
+Building
+--------
+
+After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+
+    . build/envsetup.sh
+    brunch
+
+
+You can also build (and see how long it took) for specific devices like this:
+
+    . build/envsetup.sh
+    time brunch orca_mako-userdebug
+
+Remember to `make clobber` every now and then!

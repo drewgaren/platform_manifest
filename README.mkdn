@@ -1,11 +1,11 @@
-[The Orca Project](drewgaren.com)
-====================================
+[The Orca Project Presents - BIGFOOT](drewgaren.com)
+=====================================================
 
-The Orca Project is updating all new source code to github.
+The Orca Project is updating all BIGFOOT source code to github.
 
-We are working on many new things and fixing some old issues. 
+THIS IS TEMPORARY REPO TO BUILD FROM AND MAY NOT WORK. 
 
-just remember the shamu can service you too...
+WIP STILL... SASQUATCH IS COMING TO A DEVICE NEAR YOU.
 
 code. compile. debug.
 
@@ -30,7 +30,7 @@ Syncing the Orca Source Code
 
 Initialize
 
-    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b jb4.2.2
+    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b bigfoot
 
 Run the following to sync the source
 
@@ -68,6 +68,6 @@ After the sync is finished, please read the [instructions from the Android site]
 You can also build (and see how long it took) for specific devices like this:
 
     . build/envsetup.sh
-    time brunch orca_mako-userdebug
+    time brunch bigfoot_mako-userdebug
 
 Remember to `make clobber` every now and then!

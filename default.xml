@@ -8,10 +8,25 @@
   <remote  name="aokp"
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
+           
+  <remote  name="xy"
+           fetch="https://github.com/XYAOSP/" />           
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
+           
+  <remote  name="pub"
+           fetch="git://github.com/" /> 
+           
+  <remote  name="slim"
+           fetch="git://github.com/SlimRoms/" />
+
+  <remote  name="sm"
+           fetch="git://github.com/SaberMod/" />
+           
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev/" />                             
 
   <remote  name="dg"
 	   fetch="https://github.com/ORCAOSP/" />
@@ -23,7 +38,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="dg" revision="jb4.2.2" >
+  <project path="build" name="build" remote="dg" revision="bigfoot" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -32,12 +47,11 @@
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
-  <project path="device/acer/a510" name="device_acer_a510" remote="aokp" revision="jb-mr1" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="dg" revision="jb4.2.2" />
-  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="aokp" revision="jb-mr1" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
+  <project path="dalvik" name="dalvik" remote="dg" revision="bigfoot" />
+  <project path="development" name="android_development" remote="cm" revision="cm-10.1" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/asus/tilapia" name="device_asus_tilapia" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -46,61 +60,36 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/evita" name="device_htc_evita" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/passion" name="device_htc_passion" remote="dg" revision="jb4.2.2" />
-  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="jb4.2.2" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/iprj-common" name="device_lge_iprj-common" remote="aokp" revision="jb-mr1" />     
-  <project path="device/lge/mako" name="device_lge_mako" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/p930" name="device_lge_p930" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/su640" name="device_lge_su640" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/vs920" name="device_lge_vs920" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/maserati" name="device_motorola_maserati" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/omap4-common" name="device_motorola_omap4-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/solana" name="device_motorola_solana" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/spyder" name="device_motorola_spyder" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/targa" name="device_motorola_targa" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/umts_spyder" name="device_motorola_umts_spyder" remote="aokp" revision="jb-mr1" />  
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/celox-common" name="device_samsung_celox-common" remote="aokp" revision="jb-mr1" />  
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="dg" revision="jb-mr1" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="dg" revision="cm-10.1" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/i605" name="device_samsung_i605" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/l900" name="device_samsung_l900" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="dg" revision="cm-10.1" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" /> 
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="jb4.2.2" />
-  <project path="device/samsung/hercules" name="device_samsung_hercules" remote="aokp" revision="jb-mr1" />
-  <project path="device/moto/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />
-  <project path="device/moto/stingray" name="android_device_moto_stingray" remote="dg" revision="cm-10.1" />
-  <project path="device/samsung/vibrantmtd" name="device_samsung_vibrantmtd" remote="aokp" revision="jb-mr1" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
+  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/p4wifi" name="device_samsung_p4wifi" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/p4-common" name="device_samsung_p4-common" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/omap4-common" name="device_samsung_omap4-common" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="bigfoot" />
+  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot" />
+  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="bigfoot" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="dg" revision="bigfoot" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot" />
+  <project path="device/htc/leo" name="device_htc_leo" remote="dg" revision="bigfoot" />
+  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigoot" />
+  <project path="device/asus/tf101" name="device_asus_tf101" remote="dg" revision="bigfoot" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />      
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-10.1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -117,18 +106,18 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="external_chromium" remote="xy" revision="jellybean" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.1" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="aokp" revision="jb-mr1" />
-  <project path="external/doclava" name="platform/external/doclava" />
+  <project path="external/dnsmasq" name="UnicornButter/external_dnsmasq" remote="pub" revision="jb-mr1" />
+  <project path="external/doclava" name="external_doclava" remote="xy" revision="jellybean" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aokp" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="pub" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -159,7 +148,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.1" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -175,8 +164,9 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.1" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.1" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -208,15 +198,16 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
+  <project path="external/nano" name="android_external_nano" remote="cm" revision="cm-10.1" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="android_external_openssh" remote="cm" revision="cm-10.1" />
-  <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" />
+  <project path="external/openssh" name="UnicornButter/external_openssh" remote="pub" revision="jb-mr1" />
+  <project path="external/openssl" name="UnicornButter/external_openssl" remote="pub" revision="jb-mr1" />
+  <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="pub" revision="jb-mr1" />
+  <project path="external/ping" name="UnicornButter/external_ping" remote="pub" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
@@ -229,14 +220,14 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="external_skia" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="external_skia" remote="xy" revision="jellybean" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/stlport" name="UnicornButter/external_stlport" remote="pub" revision="jb-mr1" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -246,30 +237,30 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="external_v8" remote="xy" revision="jellybean" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="external_webkit" remote="aokp" revision="jb-mr1" />
+  <project path="external/webkit" name="external_webkit" remote="xy" revision="jellybean" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="xy" revision="jellybean" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="dg" revision="jb4.2.2" />
+  <project path="frameworks/av" name="frameworks_av" remote="dg" revision="bigfoot" />
+  <project path="frameworks/base" name="frameworks_base" remote="dg" revision="bigfoot" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
+  <project path="frameworks/compile/mclinker" name="UnicornButter/frameworks_compile_mclinker" remote="pub" revision="jb-mr1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="pub" revision="jb-mr1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/native" name="frameworks_native" remote="dg" revision="bigfoot" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -277,16 +268,16 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="dg" revision="bigfoot" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard"  remote="cm" revision="cm-10.1" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="dg" revision="bigfoot" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="pub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="dg" revision="bigfoot" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
@@ -296,20 +287,20 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aokp" revision="jb-mr1" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cr" revision="jb2" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="dg" revision="bigfoot" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="libcore" remote="dg" revision="bigfoot" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
@@ -318,34 +309,31 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="dg" revision="bigfoot" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="dg" revision="bigfoot" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="dg" revision="bigfoot" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="slim" revision="jb4.2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="dg" revision="jb4.2.2" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="dg" revision="bigfoot" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="dg" revision="bigfoot" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="bigfoot" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ORCASettings" name="packages_apps_ORCASettings" remote="dg" revision="orca" />
-  <project path="packages/apps/ORCAWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="dg" revision="gh-pages" />
+  <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/ORCASettings" name="packages_apps_ORCASettings" remote="dg" revision="bigfoot" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="dg" revision="jb4.2-nightly" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="dg" revision="bigfoot" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -353,16 +341,17 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/BFStats" name="packages_apps_BFStats" remote="dg" revision="bigfoot" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -381,7 +370,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -391,43 +379,45 @@
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7" remote="sm" revision="master-crunchbang" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master-crunchbang" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
-  <project path="prebuilts/misc" name="prebuilts_misc" remote="aokp" revision="jb-mr1" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="android_system_core" remote="dg" revision="jb4.2.2" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.1" />
+  <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.1" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" />
+  <project path="system/core" name="system_core" remote="dg" revision="bigfoot" />
+  <project path="system/extras" name="system_extras" remote="dg" revision="bigfoot" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
-  <project path="system/security" name="platform/system/security" />
+  <project path="system/security" name="system_security" remote="dg" revision="bigfoot" />
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/orca" name="vendor_orca" remote="dg" revision="jb4.2.2" />
-  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="jb-mr1" />
-  <project path="vendor/acer/a510" name="vendor_acer_a510" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/asus" name="vendor_asus" remote="dg" revision="jb-mr1" />
+  <project path="vendor/orca" name="vendor_bigfoot" remote="dg" revision="bigfoot" />
+  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="bigfoot" />
+  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="bigfoot" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="bigfoot" />
+  <project path="vendor/asus" name="vendor_asus" remote="dg" revision="bigfoot" />
   
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="dg" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="dg" revision="jb4.2.2" />
+  <project path="platform_manifest" name="platform_manifest" remote="dg" revision="bigfoot" />
 </manifest>

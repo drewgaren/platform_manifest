@@ -83,7 +83,7 @@
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="dg" revision="bigfoot" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot" />
   <project path="device/htc/leo" name="device_htc_leo" remote="dg" revision="bigfoot" />
-  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigoot" />
+  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigfoot" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="dg" revision="bigfoot" />
   <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />      
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />

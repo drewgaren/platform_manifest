@@ -62,7 +62,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot" groups="device" />
   <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/crespo" name="device_samsung_crespo" remote="dg" revision="bigfoot" groups="device" />
+  <project path="device/samsung/crespo" name="device_samsung_Crespo" remote="dg" revision="bigfoot" groups="device" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot" groups="device" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot" groups="device" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot" groups="device" />

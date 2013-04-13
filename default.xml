@@ -409,8 +409,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/orca" name="vendor_bigfoot" remote="dg" revision="bigfoot" />
-  <project path="vendor/htc" name="vendor_htc" remote="aokp" revision="bigfoot" />
-  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="bigfoot" />
+  <project path="vendor/htc" name="vendor_htc" remote="dg" revision="bigfoot" />
+  <project path="vendor/lge" name="vendor_lge" remote="dg" revision="bigfoot" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="bigfoot" />
   <project path="vendor/asus" name="vendor_asus" remote="dg" revision="bigfoot" />
   

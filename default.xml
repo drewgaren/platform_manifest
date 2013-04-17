@@ -314,6 +314,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="dg" revision="official" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="dg" revision="bigfoot" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashkClock-1" remote="dg" revision="jb4.2" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="dg" revision="bigfoot" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />

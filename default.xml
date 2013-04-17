@@ -115,7 +115,7 @@
   <project path="external/dnsmasq" name="UnicornButter/external_dnsmasq" remote="gh" revision="jb-mr1" />
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="gh" revision="jellybean" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="pub" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="gh" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />

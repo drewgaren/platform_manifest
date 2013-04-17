@@ -14,7 +14,7 @@
            review="review.cyanogenmod.com" />
 
   <remote  name="dg"
-	   	   fetch="https://github.com/ORCAOSP/" />
+	   fetch="https://github.com/ORCAOSP/" />
 
   <remote  name="cr"
            fetch="git://github.com/CarbonDev" />
@@ -35,11 +35,7 @@
            remote="aosp"
            sync-j="4" />
 
-<<<<<<< HEAD
-  <project path="build" name="android_build" remote="dg" revision="bigfoot" >
-=======
   <project path="build" name="android_build" remote="dg" revision="official" >
->>>>>>> new TEST BUILDING ONLY NOT READY YET
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -59,34 +55,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-<<<<<<< HEAD
-  <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/sample" name="device_sample" remote="xy" revision="jellybean" groups="device" />
-  <project path="device/samsung/crespo" name="device_samsung_Crespo" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/d2spr" name="device_samsung_d2spr" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/p4wifi" name="device_samsung_p4wifi" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/p4-common" name="device_samsung_p4-common" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/p3100" name="device_samsung_p3100" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="dg" revision="bigfoot" groups="device" />
-  <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="bigfoot" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="bigfoot" />
-  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="dg" revision="bigfoot" />
-  <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot" />
-  <project path="device/htc/leo" name="device_htc_leo" remote="dg" revision="bigfoot" />
-  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigfoot" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="dg" revision="bigfoot" />
   <project path="device/ti/panda" name="device/ti/panda" revision="jb-mr1-release" groups="device" />      
-=======
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="official" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="official" />
@@ -114,7 +84,6 @@
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="official" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="dg" revision="official" />
->>>>>>> new TEST BUILDING ONLY NOT READY YET
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -439,14 +408,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-<<<<<<< HEAD
-  <project path="vendor/bigfoot" name="vendor_bigfoot" remote="dg" revision="bigfoot" />
-  <project path="vendor/htc" name="vendor_htc" remote="dg" revision="bigfoot" />
-  <project path="vendor/lge" name="vendor_lge" remote="dg" revision="bigfoot" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="bigfoot" />
-=======
   <project path="vendor/bigfoot" name="vendor_bigfoot" remote="dg" revision="official" />
->>>>>>> new TEST BUILDING ONLY NOT READY YET
   <project path="vendor/asus" name="vendor_asus" remote="dg" revision="bigfoot" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="official" />

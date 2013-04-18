@@ -1,11 +1,9 @@
-[The Orca Project Presents - BIGFOOT] NEARLY THERE! (drewgaren.com)
+[The Orca Project Presents - BIGFOOT] (drewgaren.com)
 =====================================================
 
-The Orca Project is updating all BIGFOOT source code to github.
+The Orca Project has merged all Orca Source with new Bigfoot source!
 
-THIS IS TEMPORARY REPO TO BUILD FROM AND MAY NOT WORK. 
-
-WIP STILL... SASQUATCH IS COMING TO A DEVICE NEAR YOU.
+SASQUATCH IS COMING TO A DEVICE NEAR YOU.
 
 code. compile. debug.
 
@@ -41,7 +39,7 @@ Run the following to sync the source
 Download the Kernel Source
 --------------------------
 
-Integrated kernel building is now a required part of compiling ORCA for all supported devices!
+Integrated kernel building is now a required part of compiling BIGFOOT for all supported devices!
 
 From the root of your source tree, run the following script to grab the kernel sources required
 
@@ -59,7 +57,7 @@ Since the kernel trees are fairly large, you may want to sync only specific kern
 Building
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+After the sync is finished, please read the [instructions from the Android site](http://source.android.com/source/building.html) on how to build.
 
     . build/envsetup.sh
     brunch

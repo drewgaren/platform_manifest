@@ -410,7 +410,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
-  <project path="vendor/bigfoot" name="vendor_bigfoot" remote="dg" revision="official" />
+  <project path="vendor/bigfoot" name="vendor_bigfoot" remote="dg" revision="wip" />
   <project path="vendor/asus" name="vendor_asus" remote="dg" revision="bigfoot" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-10.1" />

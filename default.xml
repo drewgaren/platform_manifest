@@ -63,6 +63,7 @@
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="official" />
   <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="official" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="official" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="officialbf" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="officialbf" />
@@ -82,7 +83,9 @@
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="aokp" revision="officialbf" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="officialbf" />
+  <project path="device/samsung/t0ltetmo" name="device_samsung_t0ltetmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="dg" revision="officialbf" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />

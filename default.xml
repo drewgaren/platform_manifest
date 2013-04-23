@@ -72,7 +72,7 @@
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="officialbf" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="wip" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="dg" revision="jb4.2.2" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="dg" revision="official" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />

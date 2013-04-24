@@ -38,6 +38,10 @@
   <project path="build" name="android_build" remote="dg" revision="bigfoot" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bigfoot" name="buildscripts" remote="dg" revision="bigfoot" >
+    <copyfile src="build_all.sh" dest="build_all.sh" />
+    <copyfile src="build_bigfoot.sh" dest="build_bigfoot.sh" />
+  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />

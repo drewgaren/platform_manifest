@@ -61,7 +61,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="wip" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="official" />
-  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="official" />
+  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="officialbf" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="official" />
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="officialbf" />

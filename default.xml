@@ -317,7 +317,7 @@
   <project path="packages/apps/Camera" name="packages_apps_Camera" remote="slim" revision="jb4.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="dg" revision="official" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="dg" revision="officialbf" />
   <project path="packages/apps/CDMATools" name="packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DashClock" name="packages_apps_DashClock-1" remote="dg" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="dg" revision="bigfoot" />
@@ -337,7 +337,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="officialbf" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="official" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ORCASettings" name="packages_apps_ORCASettings" remote="dg" revision="fucker" />

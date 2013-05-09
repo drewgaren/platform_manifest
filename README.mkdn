@@ -1,5 +1,5 @@
-[The Orca Project 4.2+ Presents - ORCA BIGFOOT 2] (drewgaren.com)
-=====================================================
+[The Orca Project 4.2+ Presents - ORCA BIGFOOT 2 Milestone 1] (drewgaren.com)
+=============================================================================
 
 The Orca Project has merged all Orca Source with new Bigfoot source!
 
@@ -28,7 +28,7 @@ Syncing the Orca Source Code
 
 Initialize
 
-    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b bigfoot
+    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b M1
 
 Run the following to sync the source
 

@@ -39,8 +39,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bionic" name="bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
@@ -112,7 +111,7 @@
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="external_chromium" remote="dg" revision="official" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.1" />
@@ -154,7 +153,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
+  <project path="external/javasqlite" name="android_external_javasqlite" remote="cm" revision="cm-10.1" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -166,7 +165,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="external/koush/Superuser" name="koush/Superuser" remote="gh" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="gh" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
@@ -213,8 +211,8 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="android_external_openssh" remote="dg" revision="bigfoot2" />
-  <project path="external/openssl" name="android_external_openssl" remote="dg" revision="bigfoot2" />
+  <project path="external/openssh" name="UnicornButter/external_openssh" remote="gh" revision="jb-mr1" />
+  <project path="external/openssl" name="UnicornButter/external_openssl" remote="gh" revision="jb-mr1" />
   <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="gh" revision="jb-mr1" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="gh" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -224,7 +222,7 @@
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
-  <project path="external/qrngd" name="external_qrngd" remote="aokp" revision="jb-mr1" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.1" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -251,7 +249,7 @@
   <project path="external/webkit" name="android_external_webkit" remote="cm" revision="cm-10.1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
@@ -293,11 +291,11 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cr" revision="jb2" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="dg" revision="bigfoot2" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cr" revision="jb2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />

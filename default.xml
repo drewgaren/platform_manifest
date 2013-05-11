@@ -227,11 +227,11 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="external_skia" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="external_skia" remote="dg" revision="official" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/sqlite" name="external_sqlite" remote="dg" revision="jb-4.2" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="UnicornButter/external_stlport" remote="gh" revision="jb-mr1" />

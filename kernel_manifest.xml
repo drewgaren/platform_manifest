@@ -10,4 +10,5 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="xy" revision="cm-10.1" />	  	
   <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="ev" revision="jellybean" />
 </manifest>

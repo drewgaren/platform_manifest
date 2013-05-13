@@ -1,13 +1,9 @@
-[The Orca Project 4.2+ Presents - ORCA BIGFOOT 2] (drewgaren.com)
-=====================================================
+[The Orca Project 4.2+ Presents - ORCA BIGFOOT 2 HTC Legacy Builds] (drewgaren.com)
+===============================================================================
 
-The Orca Project has merged all Orca Source with new Bigfoot source!
+This is the manifest for HTC Legacy Builds of the Orca Bigfoot 2+
 
-SASQUATCH IS COMING TO A DEVICE NEAR YOU.
-
-code. compile. debug.
-
-more info on the orca project visit drewgaren.com and click on the orca project
+thanks to evervolv for making htc legacy builds possible.
 
 
 Download the source
@@ -36,24 +32,6 @@ Run the following to sync the source
 
 ***
 
-Download the Kernel Source
---------------------------
-
-Integrated kernel building is now a required part of compiling BIGFOOT for all supported devices!
-
-From the root of your source tree, run the following script to grab the kernel sources required
-
-    . ./platform_manifest/manual_add_kernel_manifest.sh
-
-Then run another `repo sync`
-
-
-**Advanced users:**
-Since the kernel trees are fairly large, you may want to sync only specific kernel trees for devices you build for, take a look at the file `.repo/local_manifests/kernel_manifest.xml`. You can edit this file to suite your needs.
-
-
-***
-
 Building
 --------
 
@@ -66,6 +44,6 @@ After the sync is finished, please read the [instructions from the Android site]
 You can also build (and see how long it took) for specific devices like this:
 
     . build/envsetup.sh
-    time brunch bigfoot_mako-userdebug
+    time brunch bigfoot_passion-userdebug
 
 Remember to `make clobber` every now and then!

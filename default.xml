@@ -60,8 +60,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />      
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot2" />
-  <project path="device/htc/passion" name="device_htc_passion" remote="dg" revision="bigfoot2" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="ev" revision="jellybean" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="officialbf" />
@@ -259,9 +257,6 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="ev" revision="jellybean" />
-  <project path="external/htop" name="android_external_htop" remote="ev" revision="jellybean" />
-  <project path="external/vim" name="android_external_vim" remote="ev" revision="jellybean" />
   <project path="frameworks/av" name="frameworks_av" remote="dg" revision="M1" />
   <project path="frameworks/base" name="frameworks_base" remote="dg" revision="bigfoot2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
@@ -292,12 +287,6 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
-  <project path="hardware/atheros" name="android_hardware_atheros" remote="ev" revision="jellybean" />
-  <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="ev" revision="jellybean" />
-  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean"/>
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean"/>
-  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="ev" revision="jellybean"/>
-  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="ev" revision="jellybean"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
@@ -420,8 +409,8 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="system_core" remote="aokp" revision="jb-mr1" />
-  <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
+  <project path="system/core" name="system_core" remote="dg" revision="bfnightly" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="UnicornButter/system_security" remote="gh" revision="jb-mr1" />
@@ -433,7 +422,6 @@
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="bigfoot2" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="dg" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />

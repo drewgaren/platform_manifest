@@ -35,7 +35,7 @@
   <remote  name="gh"
 	   fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -92,6 +92,7 @@
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="bigfoot2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -119,10 +120,10 @@
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="UnicornButter/external_dnsmasq" remote="gh" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="Root-Box/external_dnsmasq" remote="gh" revision="jb-mr1" />
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="gh" revision="jellybean" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="UnicornButter/external_e2fsprogs" remote="gh" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="Root-Box/external_e2fsprogs" remote="gh" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -164,16 +165,16 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kissfft" name="external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="gh" revision="master" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="gh" revision="master" />
+  <project path="external/kissfft" name="external_kissfft" remote="aokp" revision="jb-mr1" />
+  <project path="external/koush/Superuser" name="Superuser" remote="rootbox" revision="master" />
+  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="slim" revision="jb4.2" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cm" revision="cm-10.1" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="cm" revision="cm-10.1" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
@@ -228,11 +229,11 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="external_skia" remote="dg" revision="official" />
+  <project path="external/skia" name="Root-Box/external_skia" remote="gh" revision="jb-mr1" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="external_sqlite" remote="dg" revision="jb-4.2" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="UnicornButter/external_stlport" remote="gh" revision="jb-mr1" />
@@ -247,7 +248,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="UnicornButter/external_v8" remote="gh" revision="jb-mr1" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="android_external_webkit" remote="dg" revision="bigfoot2" />
+  <project path="external/webkit" name="external_webkit" remote="rootbox" revision="jb-mr1" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="cm" revision="cm-10.1" />
@@ -258,7 +259,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/av" name="frameworks_av" remote="dg" revision="bigfoot2" />
   <project path="frameworks/base" name="frameworks_base" remote="dg" revision="bf2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -267,7 +268,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/native" name="frameworks_native" remote="dg" revision="bigfoot2" />
   <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />

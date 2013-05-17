@@ -61,7 +61,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />      
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bf2" />
+  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot2" />

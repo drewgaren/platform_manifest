@@ -61,13 +61,13 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />      
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="dg" revision="bigfoot2" />
-  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot2" />
-  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="bigfoot2" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/d2-common" name="Root-Box/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="dg" revision="officialbf" />
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/galaxys2-common" name="Root-Box/device_samsung_galaxys2-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/i605" name="device_samsung_i605" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="bigfoot2" />

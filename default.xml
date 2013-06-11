@@ -341,7 +341,7 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="dg" revision="bigfoot2new" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="gh" revision="jellybean" />
   <project path="packages/apps/PerformanceControl" name="PerformanceControl" remote="dg" revision="bf2" />
   <project path="packages/apps/PermissionsManager" name="PermissionsManager" remote="dg" revision="bf2" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="WIP" />

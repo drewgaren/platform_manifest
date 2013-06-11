@@ -218,7 +218,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="android_external_openssh" remote="dg" revision="bigfoot2" />
-  <project path="external/openssl" name="android_external_openssl" remote="dg" revision="bigfoot2" />
+  <project path="external/openssl" name="external_openssl" remote="dg" revision="bigfoot2rc" />
   <project path="external/oprofile" name="UnicornButter/external_oprofile" remote="gh" revision="jb-mr1" />
   <project path="external/ping" name="UnicornButter/external_ping" remote="gh" revision="jb-mr1" />
   <project path="external/ping6" name="platform/external/ping6" />

@@ -61,6 +61,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />      
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot2" />
+  <project path="device/oppo/find5" name="Root-Box/device_oppo_find5" remote="gh" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/d2-common" name="Root-Box/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot2" />
@@ -73,8 +74,11 @@
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/jf-common" name="Root-Box/device_samsung_jf-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="dg" revision="bf2" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="dg" revision="bigfoot2" />

@@ -313,6 +313,17 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="dg" revision="fucker" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jellybean" />   
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
+  <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />  
+  <project path="kernel/samsung/jf" name="android_kernel_samsung_jf" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/msm8660-common" name="android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.1" />  
+  <project path="kernel/samsung/smdk4210" name="CarbonDev/android_kernel_samsung_smdk4210" remote="gh" revision="jb2" />      
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />	  	
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />

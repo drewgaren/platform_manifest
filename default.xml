@@ -438,7 +438,7 @@
   <project path="vendor/bigfoot" name="vendor_bigfoot" remote="dg" revision="bigfoot2new" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="bigfoot2" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="dg" revision="bf2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />

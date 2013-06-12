@@ -39,7 +39,9 @@ Run the following to sync the source
 Download the Kernel Source
 --------------------------
 
-Integrated kernel building is now a required part of compiling BIGFOOT for all supported devices!
+Integrated kernel building is not a required part of compiling BIGFOOT for all supported devices.
+Kernel sources have now been placed in the default manifest so you no longer have to go through this additional step.
+However if you wish you still can do so by following these directions.
 
 From the root of your source tree, run the following script to grab the kernel sources required
 

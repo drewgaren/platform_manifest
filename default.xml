@@ -78,6 +78,7 @@
   <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/jfltecan" name="device_samsung_jfltevzw" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/jfltecan" name="device_samsung_jfltetmo" remote="dg" revision="jb-mr1" />
+  <project path="device/samsung/jfltecan" name="device_samsung_jflteusc" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="dg" revision="bf2" />

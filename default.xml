@@ -92,8 +92,8 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="dg" revision="officialbf" />
   <project path="device/samsung/toro" name="device_samsung_toro-1" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="dg" revision="jb-mr1" />
-  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/t0ltetmo" name="device_samsung_t0ltetmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="dg" revision="cm-10.1" />
+  <project path="device/samsung/t0ltetmo" name="device_samsung_t0ltetmo" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="bigfoot2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />

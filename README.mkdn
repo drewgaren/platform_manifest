@@ -1,9 +1,7 @@
-[The Orca Project 4.2+ Presents - ORCA BIGFOOT 2] (drewgaren.com)
-=====================================================
+[The Orca Project 4.2+ Presents - ORCA 2.2] (orcaproject.co)
+============================================================
 
-The Orca Project has merged all Orca Source with new Bigfoot source!
-
-SASQUATCH IS COMING TO A DEVICE NEAR YOU.
+The Orca Project has started to updated Orca 2.2
 
 code. compile. debug.
 
@@ -28,7 +26,7 @@ Syncing the Orca Source Code
 
 Initialize
 
-    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b bigfoot
+    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b orca
 
 Run the following to sync the source
 
@@ -39,7 +37,7 @@ Run the following to sync the source
 Download the Kernel Source
 --------------------------
 
-Integrated kernel building is now a required part of compiling BIGFOOT for all supported devices!
+Integrated kernel building is now a required part of compiling Orca for all supported devices!
 
 From the root of your source tree, run the following script to grab the kernel sources required
 
@@ -66,6 +64,6 @@ After the sync is finished, please read the [instructions from the Android site]
 You can also build (and see how long it took) for specific devices like this:
 
     . build/envsetup.sh
-    time brunch bigfoot_mako-userdebug
+    time brunch orca_mako-userdebug
 
 Remember to `make clobber` every now and then!

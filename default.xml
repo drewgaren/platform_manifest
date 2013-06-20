@@ -71,6 +71,7 @@
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="cm" revision="jellybean" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigfoot" />
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="bigfoot2" />
   <project path="device/oppo/find5" name="Root-Box/device_oppo_find5" remote="gh" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
@@ -459,6 +460,7 @@
 
   <project path="vendor/orca" name="vendor_orca2" remote="dg" revision="orca2" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/htc" name="vendor_htc" remote="dg" revision="orca" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="orca2" />
 

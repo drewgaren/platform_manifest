@@ -90,9 +90,9 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/jf-common" name="Root-Box/device_samsung_jf-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/jfltecan" name="device_samsung_jfltevzw" remote="dg" revision="jb-mr1" />
-  <project path="device/samsung/jfltecan" name="device_samsung_jfltetmo" remote="dg" revision="jb-mr1" />
-  <project path="device/samsung/jfltecan" name="device_samsung_jflteusc" remote="dg" revision="jb-mr1" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="dg" revision="jb-mr1" />
+  <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="dg" revision="jb-mr1" />
+  <project path="device/samsung/jflteusc" name="device_samsung_jflteusc" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/jfltexx" name="android_device_samsung_jfltexx" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />

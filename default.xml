@@ -61,7 +61,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="dg" revision="cm-10.1" /> 
-  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="dg" revision="jb-mr1" />  
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="dg" revision="jb-mr1" />  
   <project path="device/htc/m7ul" name="device_htc_m7ul" remote="dg" revision="jb-mr1" />  
   <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="dg" revision="jb-mr1" />  
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="dg" revision="jb-mr1" /> 

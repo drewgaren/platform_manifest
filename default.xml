@@ -298,7 +298,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="frameworks_native" remote="dg" revision="M2" />
+  <project path="frameworks/native" name="frameworks_native" remote="dg" revision="orca" />
   <project path="frameworks/ex" name="UnicornButter/frameworks_ex" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />

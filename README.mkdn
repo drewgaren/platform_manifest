@@ -5,7 +5,7 @@ The Orca Project has started to updated Orca 2.2
 
 code. compile. debug.
 
-more info on the orca project visit drewgaren.com and click on the orca project
+more info on the orca project visit orcaproject.co!
 
 
 Download the source

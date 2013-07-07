@@ -73,7 +73,7 @@
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigfoot" />
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="orca2" />
-  <project path="device/oppo/find5" name="Root-Box/device_oppo_find5" remote="gh" revision="jb-mr1" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="dg" revision="orca2" />
   <project path="device/sample" name="device/sample" />
   <project path="device/motorola/stingray" name="android_device_moto_stingray" remote="dg" revision="cm-10.1" />
   <project path="device/motorola/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />

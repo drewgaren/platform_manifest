@@ -89,7 +89,7 @@
   <project path="device/samsung/crespo" name="device_samsung_Crespo" remote="dg" revision="bigfoot" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot2" />
-  <project path="device/samsung/jf-common" name="Root-Box/device_samsung_jf-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/jf-common" name="jf-common" remote="dg" revision="orca2" />
   <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="dg" revision="jb-mr1" />

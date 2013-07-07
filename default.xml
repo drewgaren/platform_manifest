@@ -372,7 +372,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="ParanoidAndroid/android_packages_apps_PackageInstaller" remote="gh" revision="jellybean" />
   <project path="packages/apps/PerformanceControl" name="PerformanceControl" remote="dg" revision="bf2" />
-  <project path="packages/apps/PermissionsManager" name="PermissionsManager" remote="dg" revision="bf2" />
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="dg" revision="orca2" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />

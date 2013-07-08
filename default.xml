@@ -75,8 +75,8 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="orca2" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="dg" revision="orca2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/motorola/stingray" name="android_device_moto_stingray" remote="dg" revision="cm-10.1" />
-  <project path="device/motorola/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />
+  <project path="device/moto/stingray" name="android_device_moto_stingray" remote="dg" revision="cm-10.1" />
+  <project path="device/moto/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="d2-common" remote="dg" revision="orca2" />
   <project path="device/samsung/d2att" name="Root-Box/device_samsung_d2att" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />

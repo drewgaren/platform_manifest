@@ -289,7 +289,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="frameworks_av" remote="dg" revision="orca2" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="ORCAOSP/frameworks_base" remote="gh" revision="orca2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -312,7 +312,7 @@
   <project path="frameworks/rs" name="UnicornButter/frameworks_rs" remote="gh" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="gh" revision="jb-mr1" />
+  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="gh" revision="cm-10.1" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/atheros" name="Evervolv/android_hardware_atheros" remote="gh" revision="jellybean" />
   <project path="hardware/gpsshim" name="Evervolv/android_hardware_gpsshim" remote="gh" revision="jellybean" />

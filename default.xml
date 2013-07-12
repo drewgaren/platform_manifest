@@ -67,7 +67,6 @@
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="dg" revision="jb-mr1" /> 
   <project path="device/htc/m7att" name="device_htc_m7att" remote="dg" revision="jb-mr1" /> 
   <project path="device/htc/evita" name="device_htc_evita" remote="dg" revision="jb-mr1" />
-  <project path="device/htc/passion" name="device_htc_passion" remote="dg" revision="bigfoot2" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="cm" revision="jellybean" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="cm" revision="cm-10.1" />
@@ -78,11 +77,11 @@
   <project path="device/moto/stingray" name="android_device_moto_stingray" remote="dg" revision="cm-10.1" />
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="Root-Box/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2att" name="Root-Box/device_samsung_d2att" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/d2tmo" name="Root-Box/device_samsung_d2tmo" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2usc" name="Root-Box/device_samsung_d2usc" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2vzw" name="Root-Box/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="dg" revision="officialbf" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="galaxys2-common" remote="dg" revision="orca2" />
   <project path="device/samsung/i605" name="device_samsung_i605" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot2" />
@@ -100,7 +99,7 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="dg" revision="bf2" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="Root-Box/device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="dg" revision="officialbf" />
   <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
@@ -128,7 +127,6 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="Evervolv/android_external_bash" remote="gh" revision="jellybean" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="dg" revision="orca2" />
@@ -142,8 +140,6 @@
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.1" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/compat-wireless-3.5-rc3-1-sn" name="Evervolv/android_external_compat-wireless-3.5-rc3-1-sn" remote="gh" revision="jellybean" />
-  <project path="external/curl" name="Evervolv/android_external_curl" remote="gh" revision="jellybean"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -252,7 +248,6 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.1" />
-  <project path="external/rsync" name="Evervolv/android_external_rsync" remote="gh" revision="jellybean" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
@@ -274,10 +269,8 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/vim" name="Evervolv/android_external_vim" remote="gh" revision="jellybean" />
   <project path="external/v8" name="UnicornButter/external_v8" remote="gh" revision="jb-mr1" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/wget" name="Evervolv/android_external_wget" remote="gh" revision="jellybean"/>
   <project path="external/webkit" name="android_external_webkit" remote="dg" revision="bigfoot2" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
@@ -314,8 +307,6 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="UnicornButter/frameworks_wilhelm" remote="gh" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/atheros" name="Evervolv/android_hardware_atheros" remote="gh" revision="jellybean" />
-  <project path="hardware/gpsshim" name="Evervolv/android_hardware_gpsshim" remote="gh" revision="jellybean" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
@@ -340,7 +331,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="dg" revision="fucker" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" /> 
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libcore" name="UnicornButter/libcore" remote="gh" revision="jb-mr1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />

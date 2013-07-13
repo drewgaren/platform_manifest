@@ -439,7 +439,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="UnicornButter/system_security" remote="gh" revision="jb-mr1" />
-  <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="system_vold" remote="dg" revision="orca2" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 

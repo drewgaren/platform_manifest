@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jellybean" /> 
+  <project path="kernel/lge/mako" name="franciscofranco/mako" remote="gh" revision="nightlies" /> 
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="dg" revision="cm-10.1" />
   <project path="kernel/motorola/stringray" name="motorola-kernel-stingray" remote="cm" revision="cm-10.1" /> 
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />

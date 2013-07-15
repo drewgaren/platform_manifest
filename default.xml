@@ -114,7 +114,7 @@
   <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/t0ltetmo" name="device_samsung_t0ltetmo" remote="dg" revision="jb-mr1" />
   <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="dg" revision="orca2" />
-  <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/t0ltecdma" name="device_samsung_t0ltecdma" remote="dg" revision="orcatemp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />

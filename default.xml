@@ -78,7 +78,7 @@
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="dg" revision="cm-10.1" />
   <project path="device/samsung/d2-common" name="d2-common" remote="dg" revision="orca2" />
   <project path="device/samsung/d2att" name="device_samsung_d2att" remote="dg" revision="orcatemp" />
-  <project path="device/samsung/d2tmo" name="Root-Box/device_samsung_d2tmo" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2tmo" name="device_samsung_d2tmo-1" remote="dg" revision="orcatemp" />
   <project path="device/samsung/d2vzw" name="Root-Box/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="dg" revision="officialbf" />
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="aokp" revision="jb-mr1" />

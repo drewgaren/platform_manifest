@@ -84,7 +84,7 @@
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="dg" revision="orcatemp" />
   <project path="device/samsung/galaxys2-common" name="galaxys2-common" remote="dg" revision="orca2" />
   <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="bigfoot2" />
+  <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="orcatemp" />
   <project path="device/samsung/crespo" name="device_samsung_Crespo" remote="dg" revision="bigfoot" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="orca2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="bigfoot2" />

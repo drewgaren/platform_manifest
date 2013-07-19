@@ -2,7 +2,8 @@
 <manifest>
   <project path="kernel/lge/mako" name="franciscofranco/mako" remote="gh" revision="nightlies" /> 
   <project path="kernel/samsung/crespo" name="android_kernel_samsung_crespo" remote="dg" revision="cm-10.1" />
-  <project path="kernel/motorola/stringray" name="motorola-kernel-stingray" remote="cm" revision="cm-10.1" /> 
+  <project path="kernel/motorola/stringray" name="MoKee/android_kernel_motorola_stingray" remote="gh" revision="jb-mr1_mkt" />
+  <project path="kernel/motorola/wingray" name="codefireXperiment/kernel_moto_wingray" remote="gh" revision="jb-devel-release" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="cm" revision="cm-10.1" />
   <project path="kernel/oppo/find5" name="android_kernel_oppo_find5" remote="cm" revision="cm-10.1" />  

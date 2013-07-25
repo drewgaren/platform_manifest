@@ -54,7 +54,7 @@
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="android_device_generic_common" remote="cm" revision="cm-10.2" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" remote="cm" revision="cm-10.2" />
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="cm" revision="cm-10.2" />
   <project path="device/generic/mips" name="android_device_generic_mips" remote="cm" revision="cm-10.2" />
   <project path="device/generic/x86" name="android_device_generic_x86" remote="cm" revision="cm-10.2" />
   <project path="device/google/accessory/arduino" name="android_device_google_accessory_arduino" remote="cm" revision="cm-10.2" />

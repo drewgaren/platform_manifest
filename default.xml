@@ -488,5 +488,5 @@
   
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="dg" revision="orca" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="dg" revision="orca" />
+  <project path="platform_manifest" name="platform_manifest" remote="dg" revision="orca3" />
 </manifest>

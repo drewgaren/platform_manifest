@@ -476,7 +476,7 @@
   <project path="vendor/orca" name="vendor_orca2" remote="dg" revision="orca3" />
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/htc" name="vendor_htc" remote="dg" revision="orca" />
-  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/lge" name="VanirAOSP/vendor_lge" remote="gh" revision="jb43" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="orca2" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-10.1" />

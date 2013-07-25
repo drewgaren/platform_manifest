@@ -45,7 +45,7 @@
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="dg" revision="bigfoot2" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="aokp" revision="jb-mr1" />
-  <project path="device/common" name="CyanogenMod/android_device_common" remote="gh" revision="cm-10.1" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -60,9 +60,9 @@
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="dg" revision="jb-mr1" /> 
   <project path="device/htc/m7att" name="device_htc_m7att" remote="dg" revision="jb-mr1" /> 
   <project path="device/htc/evita" name="device_htc_evita" remote="dg" revision="jb-mr1" />
-  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="gh" revision="jellybean" />
-  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="gh" revision="cm-10.1" />
-  <project path="device/htc/msm8660-common" name="CyanogenMod/android_device_htc_msm8660-common" remote="gh" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="cm" revision="jellybean" />
+  <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/qsd8k-common" name="device_htc_qsd8k-common" remote="dg" revision="bigfoot" />
   <project path="device/lge/mako" name="device_lge_mako" remote="dg" revision="orca3" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="dg" revision="orca2" />
@@ -83,19 +83,19 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="orca2" />
   <project path="device/samsung/jf-common" name="jf-common" remote="dg" revision="orca2" />
   <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/jflteatt" name="CyanogenMod/android_device_samsung_jflteatt" remote="gh" revision="cm-10.1" />
-  <project path="device/samsung/jfltecan" name="CyanogenMod/android_device_samsung_jfltecan" remote="gh" revision="cm-10.1" />
-  <project path="device/samsung/jfltespr" name="CyanogenMod/android_device_samsung_jfltespr" remote="gh" revision="cm-10.1" />
-  <project path="device/samsung/jfltetmo" name="CyanogenMod/android_device_samsung_jfltetmo" remote="gh" revision="cm-10.1" />
-  <project path="device/samsung/jfltevzw" name="CyanogenMod/android_device_samsung_jfltevzw" remote="gh" revision="cm-10.1" />
-  <project path="device/samsung/l900" name="CyanogenMod/android_device_samsung_l900" remote="gh" revision="cm-10.1" />
+  <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jfltetmo" name="android_device_samsung_jfltetmo" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="dg" revision="orcatemp" />
   <project path="device/samsung/msm8660-common" name="device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="dg" revision="orcatemp" />
   <project path="device/samsung/n7000" name="device_samsung_n7000" remote="dg" revision="orcatemp" />
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="dg" revision="orcatemp" />
-  <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="gh" revision="cm-10.1" />
+  <project path="device/samsung/omap4-common" name="cmandroid_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="dg" revision="orca2" />
   <project path="device/samsung/quincyatt" name="device_samsung_quincyatt" remote="dg" revision="bigfoot2" />
   <project path="device/samsung/quincy-common" name="device_samsung_quincy-common" remote="dg" revision="orcatemp" />
@@ -490,7 +490,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="dg" revision="bf2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="gh" revision="cm-10.1" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
   
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="dg" revision="orca" />
 </manifest>

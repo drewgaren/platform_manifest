@@ -16,8 +16,14 @@
            fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
 
-  <remote  name="gh"
-	   fetch="https://github.com/" />
+  <remote  name="rb"
+	   fetch="https://github.com/Root-Box" />
+	   
+  <remote  name="mp"
+	   fetch="https://github.com/TheMuppets" />
+	   
+  <remote  name="slim"
+	   fetch="https://github.com/slimroms" />	   
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -76,13 +82,13 @@
   <project path="device/samsung/d2mtr" name="device_samsung_d2mtr" remote="dg" revision="officialbf" />
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="dg" revision="orcatemp" />
   <project path="device/samsung/galaxys2-common" name="galaxys2-common" remote="dg" revision="orca2" />
-  <project path="device/samsung/i605" name="CyanogenMod/android_device_samsung_i605" remote="gh" revision="cm-10.1" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/i9100" name="device_samsung_i9100" remote="dg" revision="orcatemp" />
   <project path="device/samsung/crespo" name="device_samsung_Crespo" remote="dg" revision="bigfoot" />
   <project path="device/samsung/i9100g" name="device_samsung_i9100g" remote="dg" revision="orca2" />
   <project path="device/samsung/i9300" name="device_samsung_i9300" remote="dg" revision="orca2" />
   <project path="device/samsung/jf-common" name="jf-common" remote="dg" revision="orca2" />
-  <project path="device/samsung/jfltecan" name="Root-Box/device_samsung_jfltecan" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/jfltecan" name="device_samsung_jfltecan" remote="rb" revision="jb-mr1" />
   <project path="device/samsung/jflteatt" name="android_device_samsung_jflteatt" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltecan" name="android_device_samsung_jfltecan" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/jfltespr" name="android_device_samsung_jfltespr" remote="cm" revision="cm-10.1" />
@@ -482,7 +488,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/htc" name="vendor_htc" remote="dg" revision="orca" />
   <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-10.1" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="mp" revision="cm-10.1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dg" revision="orca2" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="cm-10.1" />
   <project path="vendor/moto" name="vendor_moto" remote="dg" revision="jb-devel-release" />

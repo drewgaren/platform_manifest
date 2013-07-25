@@ -1,9 +1,13 @@
-[The Orca Project 4.2+ Presents - ORCA 2.2] (orcaproject.co)
-============================================================
+[The Orca Project 4.3+ Presents - ORCA 3] (orcaproject.co)
+==================================================================
 
-The Orca Project has started to updated Orca 2.2
+THIS BRANCH IS CURRENTLY A WORK IN PROCESS.
 
-code. compile. debug.
+The Orca Project is leaning more towards AOSP with Orca 3 and extensive new features.
+
+The Orca Project has started to Android 4.3 and update to Orca 3.0
+
+FAST LIKE SHAMU, STRONG LIKE A DROID.
 
 more info on the orca project visit orcaproject.co!
 
@@ -26,7 +30,7 @@ Syncing the Orca Source Code
 
 Initialize
 
-    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b orca
+    repo init -u git://github.com/ORCAOSP/platform_manifest.git -b orca3
 
 Run the following to sync the source
 

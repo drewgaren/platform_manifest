@@ -388,7 +388,6 @@
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/SpareParts" name="android_packages_apps_SpareParts" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" revision="cm-10.2" />

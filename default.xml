@@ -406,7 +406,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/DrmProvider" name="android_packages_providers_DrmProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="cm-10.2" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvide" remote="cm" revision="cm-10.2" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" revision="cm-10.2" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />

@@ -394,7 +394,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk,tools" />
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.2" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="ParanoidAndroid/android_system_core" remote="gh" revision="jb43"  />
+  <project path="system/core" name="android_system_core-jb43" remote="dg" revision="cm-10.2"  />
   <project path="system/extras" name="ParanoidAndroid/android_system_extras" remote="gh" revision="jb43"/>
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />

@@ -33,7 +33,7 @@
            fetch="git://github.com/SaberMod/" />                  
 
   <remote  name="gh"
-	       fetch="https://github.com/" />
+	   fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
@@ -90,14 +90,14 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="github" revision="jb43" />
+  <project path="external/chromium" name="ParanoidAndroid/android_external_chromium" remote="gh" revision="jb43" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="github" revision="jb43" />
+  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" remote="gh" revision="jb43" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />

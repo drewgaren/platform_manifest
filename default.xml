@@ -417,7 +417,7 @@
 
   <project path="vendor/orca" name="vendor_orca2" remote="dg" revision="wip" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
-  <project path="vendor/lge" name="vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/lge" name="vendor_lge" remote="dg" revision="orca3" />
 
  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="gh" revision="jb43" />
   

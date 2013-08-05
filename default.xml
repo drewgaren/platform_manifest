@@ -419,7 +419,7 @@
 
   <project path="vendor/orca" name="vendor_orca2" remote="dg" revision="wip" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
-  <project path="vendor/lge" name"vendor_lge" remote="dg" revision="orca3" />
+  <project path="vendor/lge" name="ORCAOSP/vendor_lge" remote="gh" revision="orca3" />
   
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="dg" revision="orca" />
 

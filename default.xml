@@ -39,7 +39,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="dg" revision="orca3" >
+  <project path="build" name="orcateam/android_build" remote="gh" revision="cm-10.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />

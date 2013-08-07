@@ -417,7 +417,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/orca" name="vendor_orca2" remote="dg" revision="wip" />
+  <project path="vendor/orca" name="android_vendor_orca" remote="dg" revision="jb43" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="cm" revision="cm-10.2" />
   <project path="vendor/lge" name="ORCAOSP/vendor_lge" remote="gh" revision="orca3" />
   

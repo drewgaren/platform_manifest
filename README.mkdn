@@ -1,15 +1,9 @@
-[The Orca Project 4.3+ Presents - ORCA 3] (orcaproject.co)
+THIS IS NOT ORCA DO NOT BUILD YET
 ==================================================================
 
 THIS BRANCH IS CURRENTLY A WORK IN PROCESS.
 
-The Orca Project is leaning more towards AOSP with Orca 3 and extensive new features.
-
-The Orca Project has started to Android 4.3 and update to Orca 3.0
-
-FAST LIKE SHAMU, STRONG LIKE A DROID.
-
-more info on the orca project visit orcaproject.co!
+This is not part of the orca project yet and is only a work in progress. DO NOT TRY TO BUILD IT WILL NOT SUCCEED.
 
 
 Download the source
